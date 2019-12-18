@@ -1,0 +1,16 @@
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 100px);
+    grid-template-rows: 100px 100px 100px;
+    border: blueviolet;
+    background-color: brown;
+}
+
+.start {
+    justify-content: start;
+    
+}
+
+.end {
+	justify-content: end;
+}

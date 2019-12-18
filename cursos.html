@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' href='css/bootstrap.css'>
+  <title>Bootstrap Recode Pro - Aluna Bruna Moura</title>
+
+</head>
+
+<body>
+  <!--Inicio da Navbar-->
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!--Logotipo-->
+    <a href="#" class="navbar-brand">
+      <img src="recoode.jpg" style="width: 30px; height:auto;" class="d-inline-block align-top"> Recode Pro - SP
+    </a>
+    <!--Botão aparece quando a tela estiver em resolução menor que menor  que 768px-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--Inicio dos itens do menu que serão ocultos / exibidos no clique do botão acima-->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cursos.html">Cursos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html">Contato</a>
+        </li>
+        <!-- Inicio Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Tecnologias
+          </a>
+          <!-- Itens do Dropdown -->
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">HTML 5</a>
+            <a class="dropdown-item" href="#">CSS</a>
+            <a class="dropdown-item" href="#">JavaScript</a>
+          </div>
+        </li>
+        <!--Fim do dropdown-->
+      </ul>
+    </div>
+  </nav>
+  <!--Fim da Navbar-->
+
+  <!--Inicio do Container-->
+  <div class="container">
+    <!--Inicio Jumbotron-->
+    <div class="jumbotron">
+      <h1>Recode Pro - São Paulo</h1>
+      <p>O maior treinamento Full Stack do Brasil</p>
+      <p>Professor: Flávio Mota</p>
+    </div>
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link" type="budetton" data-toggle="collapse" data-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Programe O básico
+            </button>
+          </h2>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            Neste modulo vamos conhecer as tecnologias básicas para a construção de páginas web, HTML, CSS, Javascript
+            além de logica de programação e um programa
+            especial de empregabilidade com muitas palestras e mentoria de profissionais da área.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+              aria-expanded="false" aria-controls="collapseTwo">
+              Front End
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            Em resumo, o desenvolvedor front-end trabalha com um foco maior na camada da interface da aplicação que “tocará” o
+            usuário, seja ela de um site, de um programa desktop, ou um de aplicativo móvel. O seu objetivo é oferecer para o
+            usuário a melhor experiência em sua plataforma.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+              aria-expanded="false" aria-controls="collapseThree">
+              Back End
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+            Como o nome sugere, o desenvolvedor back-end trabalha na parte de “trás” da aplicação. Ele é o responsável, em termos
+            gerais, pela implementação da regra de negócio. Em uma aplicação web, este desenvolvedor, quando focado, não toca na
+            parte visual da aplicação
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Fim do container-->
+  <script src='js/jquery.min.js'></script>
+  <script src='js/popper.min.js'></script>
+  <script src='js/bootstrap.js'></script>
+
+</body>
+
+</html>
